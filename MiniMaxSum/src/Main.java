@@ -24,7 +24,6 @@ public class Main {
         ArrayList<Integer> sorted = new ArrayList<>(arr);
         long miniSum = 0;
         long maxSum = 0;
-
         //sort the list
         for (int i = 0; i < sorted.size(); i++) {
             for (int j = i+1; j < sorted.size(); j++) {
